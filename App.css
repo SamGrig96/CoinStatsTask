@@ -1,0 +1,79 @@
+.App {
+    background: #1b1e37;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#modal-modal-title{
+    color: white;
+}
+
+.header button {
+    width: 150px;
+    height: 40px;
+    background-color: #02baff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.App span {
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    height: max-content;
+    background: #1f233f;
+    width: calc(100% - 50px);
+    margin: 25px auto;
+    padding: 20px 0;
+
+
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+table tr td, table tr th {
+    color: white !important;
+}
+
+.create-content{
+    display: flex;
+    flex-direction: column;
+}
+#standard-multiline-flexible{
+    padding-left: 40px;
+    margin-top: 20px;
+    color: white;
+    border: red;
+    width: 250px;
+}
+
+.button-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.button-section button{
+    padding: 0px 10px;
+}
